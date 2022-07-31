@@ -9,7 +9,7 @@ const App = () => {
 
   const [weather,setWeather]=useState(null);
   const [unit,setUnits]=useState("metric");
-  const [city,setCity]=useState("Paris")
+  const [city,setCity]=useState("Kashmir")
   useEffect(()=>{
     const fetch=async()=>
     {
